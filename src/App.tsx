@@ -13,8 +13,15 @@ function App() {
           <a>Portifolio</a>
         </nav>
         <button>
+          <div className='btn-face-white'>
           Contact us
-        <ArrowIcons />
+          <ArrowIcons />
+          </div>{/* btn-face-white */}
+
+          <div className='btn-face-purple'>
+          Contact us
+          <ArrowIcons />
+          </div>{/* btn-face-purple */}
         </button>
       </header>{/* header-container */}
     </main>
