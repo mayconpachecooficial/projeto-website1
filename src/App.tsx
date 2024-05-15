@@ -1,16 +1,21 @@
 import './App.scss'
+import Logo  from './components/logo'
+import ArrowIcons from './components/arrow-icons'
 
 function App() {
   return (
     <main>
       <header className='header-container'>
-        <div className='logo-container'>
-          <img src="./logo-img" />
-          <div className='logo-text'>
-            <span className='logo-text-bold'>summerly</span>
-            <span className='logo-text-regular'>media</span>
-          </div>{/* logo-text */}
-        </div>{/* logo-container */}
+        <Logo />
+        <nav className="menu-options">
+          <a>What we affer</a>
+          <a>How it works</a>
+          <a>Portifolio</a>
+        </nav>
+        <button>
+          Contact us
+        <ArrowIcons />
+        </button>
       </header>{/* header-container */}
     </main>
   )
