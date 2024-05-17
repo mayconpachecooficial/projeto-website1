@@ -220,26 +220,29 @@ main {
         &.fire {
           right: 20px;
           bottom: 20%;
-          font-size: 24px;
+          border-radius: 30px;
 
         }
 
         &.rocket {
-          top: 22%;
+          top: 20%;
           right: 50px;
-          font-size: 24px;
+          border-radius: 60px;
+          font-size: 28px;
         }
 
         &.target {
           top: 15%;
           left: 50px;
           font-size: 36px;
+          border-radius: 60px;
         }
 
         &.shop {
           bottom: 22%;
           left: 8%;
           font-size: 24px;
+          border-radius: 60px;
         }
       }
     }
