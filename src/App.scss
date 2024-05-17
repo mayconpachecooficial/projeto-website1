@@ -114,23 +114,23 @@ main {
 
 
     .bubble {
-      background-color: gray;
+      // background-color: gray;
       padding: 12px 14px;
       border-radius: 100%;
       position: absolute;
 
       &.fire{
-        right: 20px;
+        right: 200px;
         transform: rotate(-20deg);
-        bottom: 30%;
-        font-size: 24px;
+        bottom: 10%;
+        font-size: 40px;
         transform: rotate(10deg);
         animation: balance 1s alternate 400ms infinite;
       }
 
       &.rocket{
         top: 20%;
-        right: 100px;
+        right: 300px;
         font-size: 42px;
         transform: rotate(10deg);
         animation: balance 1s alternate 400ms infinite;
@@ -146,7 +146,7 @@ main {
 
       &.shop{
         bottom: 20%;
-        left: 5%;
+        left: 16%;
         font-size: 36px;
         transform: rotate(50deg);
         animation: balance 1s alternate 400ms infinite;
@@ -220,29 +220,25 @@ main {
         &.fire {
           right: 20px;
           bottom: 20%;
-          border-radius: 30px;
-
+          font-size: 40px;
         }
 
         &.rocket {
           top: 20%;
           right: 50px;
-          border-radius: 60px;
-          font-size: 28px;
+          font-size: 40px;
         }
 
         &.target {
           top: 15%;
           left: 50px;
-          font-size: 36px;
-          border-radius: 60px;
+          font-size: 65px;
         }
 
         &.shop {
-          bottom: 22%;
-          left: 8%;
-          font-size: 24px;
-          border-radius: 60px;
+          bottom: 18%;
+          left: 5%;
+          font-size: 45px;
         }
       }
     }
