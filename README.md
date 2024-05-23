@@ -1,6 +1,6 @@
 ✔✔TECNOLOGIAS UTILIZADAS✔✔
 
-Vite | React | Sass.
+React + Vite | Sass.
 
 
 ✔✔DEPLOY✔✔
